@@ -14,6 +14,21 @@
             this.email = email;
         }
 
+        public string getName()
+        {
+            return this.name;
+        }
+
+        public void setName(string name)
+        {
+            this.name = name;
+        }
+
+        public void setEmail(string email)
+        {
+            this.email = email;
+        }
+
         public override string? ToString()
         {
             return name + "|" + adress + "|" + email;
